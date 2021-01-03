@@ -49,6 +49,21 @@ ul {
 
 }
 
+.project1 {
+  margin-top: 5%;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 150%;
+  line-height: 130%;
+  font-family: 'Calibri';
+  height: 100%;
+  width: 85%;
+  margin-left: 8%;
+  padding: 0;
+  }
+.gt {
+  color: blue;
+}
 .msg1 {
   font-family: 'Calibri';
 }
@@ -400,6 +415,67 @@ label.hamburger {
 /**
     SCROLLBAR STYLE FOR IE
 */
+.val {
+  font-family: Calibri;
+  font-size: 180%;
+  color: blue;
+  text-align: center;
+}
+
+.button-parent {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+.button-parent--inner {
+  padding: 4em 1em;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  color: #4A4A4A;
+  display: inline-block;
+}
+
+.button-item {
+  padding-bottom: 2em;
+}
+
+.btn-1 {
+  padding: 1em 3em;
+  border: 3px solid #4A90E2;
+  transition: all 300ms ease;
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.2);
+}
+.btn-1:before {
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 100%;
+  background: #4A90E2;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+  transition: all 0ms ease;
+}
+.btn-1:hover {
+  color: white;
+  box-shadow: none;
+}
+.btn-1:hover:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #4A90E2;
+  top: 0;
+  left: 0%;
+  z-index: -1;
+  transition: all 300ms ease;
+}
+
 body {
   scrollbar-base-color: #138a72;
   scrollbar-3dlight-color: #fff;
@@ -420,17 +496,103 @@ body {
   stroke: currentColor;
   fill: currentColor;
 }
+.cardi {
+  text-align: center;
+  font-family: 'Times-new-roman', cursive;
+  font-size: 200%;
+  color: black;
+}
+
+.ground {
+
+  position: center;
+  margin-top: 100%;
+}
+
+.container {
+  width: 120px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+path {
+  stroke-dasharray: 99.47578430175781;
+  stroke-dashoffset: -99.47578430175781;
+  fill: transparent;
+}
+
+svg.animate path {
+  animation: 1.7s ease forwards draw;
+  opacity:1;
+}
+
+@keyframes draw {
+  0% {
+    opacity: 1;
+    stroke-dashoffset: -99.47578430175781;
+    fill: transparent;
+    transform: translateY(0);
+  }
+  
+  35% {
+    stroke-dashoffset: 0;
+    fill: transparent;
+  }
+  
+  60% {
+    fill: #3da35a;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  100% {
+    fill: #3da35a;
+    stroke-dashoffset: 0;
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
 
 
+button {
+  cursor: pointer;
+  min-width: 200px;
+  padding: 15px 5px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background: #3da35a;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(56,100,38);
+  transition: all 1s;
+}
 
+button:hover {
+  box-shadow: 0 0 25px rgb(56,100,38);
+}
+
+button:focus {
+  outline: none;
+}
 
 footer {
+
   margin-top: 30px;
   padding-top: 10px;
+  padding-bottom: 10px;
   color: #aaaaaa;
   border-top: 1px solid #aaaaaa;
   background-color: #1240AB;
   background-size:cover;
+  
+    position: relative;
 }
 
 
