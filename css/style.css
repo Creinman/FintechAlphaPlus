@@ -30,6 +30,7 @@ ul {
   align-items: center;
   color: #FEFEFE;
   background-color: blue;
+  background-size:cover;
 }
 
 .project0 {
@@ -53,7 +54,7 @@ ul {
 }
 
 .msgp {
-  margin: 5px;
+  margin: 0;
   font-family: 'Calibri', cursive;
   font-size: 4vw;
   display: flex;
@@ -64,7 +65,8 @@ ul {
   max-width: 100%;
   align-items: center;
   color: #FEFEFE;
-  background-color: #1184F0;
+  background-color: blue;
+  background-size:cover;
 }
 
 .msgp1 {
@@ -428,6 +430,7 @@ footer {
   color: #aaaaaa;
   border-top: 1px solid #aaaaaa;
   background-color: #1240AB;
+  background-size:cover;
 }
 
 
