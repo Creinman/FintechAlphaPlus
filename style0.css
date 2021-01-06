@@ -1,9 +1,10 @@
 html {
   font-family: 'Lato', sans-serif;
+  background-color: black;
 }
 body {
-  background: white;/*url(https://subtlepatterns.com/patterns/use_your_illusion.png);*/
-  color: black;
+  /*url(https://subtlepatterns.com/patterns/use_your_illusion.png);*/
+  color: #1dde06;
   font: 1em 'PT Sans', sans-serif;
 }
 
@@ -112,8 +113,13 @@ ul {
   max-height: 100%;
   max-width: 100%;
   align-items: center;
-  color: #FEFEFE;
-  background-color: blue;
+  color: #1dde06;
+  background-image: url(city.jpg);
+  background-size: cover;
+}
+
+.msg span {
+  background-color: #2336abad;
 }
 
 .project0 {
@@ -158,8 +164,8 @@ ul {
 
 .features {
   margin: 90px;
-  color: #FFA900;
-  font-family: 'Lato', sans-serif;
+  color: #1a38ce;
+  font-family: 'Pacifico', sans-serif;
   font-size: 2.5rem;
   text-transform: uppercase;
 }
@@ -183,8 +189,8 @@ ul {
   padding-top: 125px;
   transition: width 475ms ease-out, transform 450ms ease, border-radius .8s .1s ease;
   border-bottom-left-radius: 100vw;
-  background-color: #3d88ce;
-  background-color: rgba(12, 106, 194, 0.8);
+   background-color: #1df31680;
+  background-color: #1df31680; /*23dc1da8*/
 }
 @media (min-width: 768px) {
   .drawer-list {
@@ -230,7 +236,7 @@ ul {
 .drawer-list li a:hover {
   cursor: pointer;
   background-color: #88c2f8;
-  background-color: rgba(17, 132, 240, 0.5);
+  background-color: green;
 }
 
 input.hamburger {
@@ -508,9 +514,9 @@ body {
 footer {
   margin-top: 30%;
   padding-top: 10px;
-  color: #aaaaaa;
-  border-top: 1px solid #aaaaaa;
-  background-color: #1240AB;
+  color: #50dc11;
+  border-top: 1px solid #50dc11;
+  background-color: #black;
 }
 
 
